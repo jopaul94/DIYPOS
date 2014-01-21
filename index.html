@@ -15,6 +15,52 @@
 }
 
 </style>
+<script>
+document.onkeydown = function(event) {
+  var kcode = event.keyCode;
+  switch (kcode)
+  case 48:
+  case 96:
+    var effected = "zero";
+    break;
+  case 49:
+  case 97:
+    var effected = "one";
+    break;
+  case 50:
+  case 98:
+    var effected = "two";
+    break;
+  case 51:
+  case 99:
+    var effected = "three";
+    break;
+  case 52:
+  case 100:
+    var effected = "four";
+    break;
+  case 53:
+  case 101:
+    var effected = "five";
+    break;
+  case 54:
+  case 102:
+    var effected = "six";
+    break;
+  case 55:
+  case 103:
+    var effected = "seven";
+    break;
+  case 56:
+  case 104:
+    var effected = "eight";
+    break;
+  case 57:
+  case 105:
+    var effected = "nine";
+    break;
+}
+</script>
 </head>
 <body>
 <body>
@@ -54,7 +100,7 @@
 <button id="three" type="button" class="btn btn-info btn-lg">3</button>
 </div>
 <div class="row">
-<button id="zero" type="button" class="btn btn-info btn-lg">0</button>
+<button id="zero" type="button" class="btn btn-lg">0</button>
 </div>
 </div><!--col-md-6 -->
 </div><!-- row -->
